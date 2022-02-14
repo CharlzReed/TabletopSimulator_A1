@@ -1,0 +1,4342 @@
+{
+  "SaveName": "Advance_By_Chance",
+  "EpochTime": 1644817995,
+  "Date": "2/14/2022 12:53:15 AM",
+  "VersionNumber": "v13.1.1",
+  "GameMode": "Custom",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "Table_RPG",
+  "Sky": "Sky_Sunset",
+  "Note": "",
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "[u][b]CHECKERS:[/b][/u]\n\nCheckers (also known as Draughts), is a two-player game. One player is red and one player is black. \n\n[b]GENERAL PLAY:[/b]\nEach player starts with 12 pieces on the three rows closest to their own side. The row closest to each player is called the “King Row“. Black always moves first.\nA player can move in two ways. A piece can be moved forward, diagonally, to the very next dark square. If the other player's piece, and an empty square are lined up, then the first player must “jump“ the other player's piece. In this case, the first player jumps over the other player's piece onto the empty square and takes the other player's piece off the board. A player can also use one piece to make multiple jumps in any one single turn, provided each jump continues to lead immediately into the next jump.\n\n[b]KING ME:[/b]\nIf a player's piece moves into the King Row on the other player's side, it becomes a king. You can either flip the piece to show the crown, or you can stack 2 on top of each other, but turning it over is simpler and you can press alt while hovering over it, if you can’t see the crown too well. A king can move forward and backward. (Regular pieces can only move forward.) A king cannot jump out of the King Row until the next turn. Neither Kings nor regular pieces may move in any direction that is not diagonal.\n\n[b]OPTIONAL VARIANT OF KINGS:[/b]\nInternational play of Checkers can be a bit different, so here is an optional way you can play with the king:\nThe King can capture an opponent's checker or King by jumping over it. The King can jump any distance along a diagonal as long as the following conditions are met:\nThe piece that will be captured must be on the same diagonal as the King.\nThe King can not jump over a piece of its own color.\nThe King can only jump over one piece at a time.\nThere must be at least one empty square just beyond the piece that will be captured.\nThe King does not have to land in the first empty space beyond the piece it has jumped over. The King can choose what space it will land in, unless multiple jumps are available. In that case, the King must land in a space from which it can make the next jump.\n\n[b]WINNING THE GAME:[/b]\nThe first player who cannot move loses. So if a player loses all of his pieces, he loses the game. And if he cannot move, he loses (even if he has pieces). A player may also resign (choose to lose). If nobody can lose, the game is a draw.\n\nPlease note that these Notepad are one in many out there, but this is a good starting point for one way to play the game. If you’d like to find other ways to play, you can search online. [b]Have fun![/b]\n",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 2.0,
+    "ySize": 2.0,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 0.9851295,
+      "g": 1.0,
+      "b": 0.0
+    },
+    "AmbientIntensity": 1.50800049,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 0.26399976,
+    "LutIndex": 0,
+    "LutContribution": 1.0,
+    "LutURL": ""
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0
+  },
+  "ComponentTags": {
+    "labels": []
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "DecalPallet": [],
+  "LuaScript": "--[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]\n\n--[[ The onLoad event is called after the game save finishes loading. --]]\nfunction onLoad()\n    --[[ print('onLoad!') --]]\nend\n\n--[[ The onUpdate event is called once per frame. --]]\nfunction onUpdate()\n    --[[ print('onUpdate loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "VectorLines": [
+    {
+      "points3": [
+        {
+          "x": -24.9482269,
+          "y": 0.9711356,
+          "z": 3.23127532
+        },
+        {
+          "x": -19.9298973,
+          "y": 0.9711356,
+          "z": 3.20189166
+        },
+        {
+          "x": -19.9715881,
+          "y": 0.971134663,
+          "z": -3.91819787
+        },
+        {
+          "x": -24.9899178,
+          "y": 0.971134663,
+          "z": -3.88881421
+        }
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "thickness": 0.1,
+      "loop": true
+    },
+    {
+      "points3": [
+        {
+          "x": -16.9705944,
+          "y": 0.9711356,
+          "z": 3.14167237
+        },
+        {
+          "x": -11.8664083,
+          "y": 0.9711354,
+          "z": 3.11178613
+        },
+        {
+          "x": -11.9080982,
+          "y": 0.971134663,
+          "z": -4.0083
+        },
+        {
+          "x": -17.0122852,
+          "y": 0.9711344,
+          "z": -3.97841334
+        }
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "thickness": 0.1,
+      "loop": true
+    },
+    {
+      "points3": [
+        {
+          "x": -10.2001944,
+          "y": 0.971134663,
+          "z": -5.348031
+        },
+        {
+          "x": -10.2001944,
+          "y": 0.971134663,
+          "z": -5.348031
+        },
+        {
+          "x": -10.2001944,
+          "y": 0.971134663,
+          "z": -5.348031
+        },
+        {
+          "x": -10.2001944,
+          "y": 0.971134663,
+          "z": -5.348031
+        }
+      ],
+      "color": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "thickness": 0.1,
+      "loop": true
+    }
+  ],
+  "ObjectStates": [
+    {
+      "GUID": "76c52b",
+      "Name": "Checker_Board",
+      "Transform": {
+        "posX": 9.376696,
+        "posY": 0.9599999,
+        "posZ": -0.131470412,
+        "rotX": 1.01232942E-07,
+        "rotY": 0.0105694719,
+        "rotZ": -8.058394E-09,
+        "scaleX": 1.87499893,
+        "scaleY": 1.87499893,
+        "scaleZ": 1.87499893
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.3647058,
+        "g": 0.9647059,
+        "b": 0.9647059
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": -6.72,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": -4.8,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": -2.88,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": -0.960000038,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": 0.959999561,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": 2.87999964,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": 4.79999971,
+            "y": 0.0,
+            "z": 6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": -6.72
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": -4.8
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": -2.88
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": -0.960000038
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": 0.959999561
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": 2.87999964
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": 4.79999971
+          }
+        },
+        {
+          "Position": {
+            "x": 6.72,
+            "y": 0.0,
+            "z": 6.72
+          }
+        }
+      ],
+      "AttachedVectorLines": [
+        {
+          "points3": [
+            {
+              "x": -6.66676474,
+              "y": 0.2977109,
+              "z": -6.738861
+            },
+            {
+              "x": 6.831442,
+              "y": 0.2977109,
+              "z": -6.878883
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.83143044,
+              "y": 0.2977109,
+              "z": -6.84985447
+            },
+            {
+              "x": 6.85964346,
+              "y": 0.297711372,
+              "z": -4.70175028
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.85964346,
+              "y": 0.297711372,
+              "z": -4.70175028
+            },
+            {
+              "x": -6.638432,
+              "y": 0.297711372,
+              "z": -4.910068
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -6.75454473,
+              "y": 0.297711372,
+              "z": -4.910112
+            },
+            {
+              "x": -6.81335974,
+              "y": 0.297711849,
+              "z": -2.90718365
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -6.784332,
+              "y": 0.297711849,
+              "z": -2.90717268
+            },
+            {
+              "x": 6.655762,
+              "y": 0.297711849,
+              "z": -2.90207386
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.74282742,
+              "y": 0.297711849,
+              "z": -2.84398365
+            },
+            {
+              "x": 6.742079,
+              "y": 0.297711849,
+              "z": -0.8700601
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.71304,
+              "y": 0.297711849,
+              "z": -0.841043
+            },
+            {
+              "x": -6.726968,
+              "y": 0.297711849,
+              "z": -1.07836771
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -6.727023,
+              "y": 0.297711849,
+              "z": -0.9332268
+            },
+            {
+              "x": -6.756768,
+              "y": 0.297712147,
+              "z": 0.9536011
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -6.78584051,
+              "y": 0.2977121,
+              "z": 1.06970358
+            },
+            {
+              "x": 6.828458,
+              "y": 0.2977121,
+              "z": 0.9877833
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.9155407,
+              "y": 0.297712147,
+              "z": 0.987816334
+            },
+            {
+              "x": 6.856792,
+              "y": 0.297712326,
+              "z": 2.816576
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.82775259,
+              "y": 0.297712326,
+              "z": 2.8455925
+            },
+            {
+              "x": -6.786523,
+              "y": 0.297712326,
+              "z": 2.86945724
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -6.81555128,
+              "y": 0.297712326,
+              "z": 2.86944628
+            },
+            {
+              "x": -6.845328,
+              "y": 0.297712326,
+              "z": 4.84335947
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": -6.787284,
+              "y": 0.297712326,
+              "z": 4.8724103
+            },
+            {
+              "x": 6.71086,
+              "y": 0.297712326,
+              "z": 4.906558
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.79797554,
+              "y": 0.297712326,
+              "z": 4.819507
+            },
+            {
+              "x": 6.797206,
+              "y": 0.2977128,
+              "z": 6.85148764
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        },
+        {
+          "points3": [
+            {
+              "x": 6.826234,
+              "y": 0.2977128,
+              "z": 6.851498
+            },
+            {
+              "x": -6.729952,
+              "y": 0.2977128,
+              "z": 6.788299
+            }
+          ],
+          "color": {
+            "r": 0.472119331,
+            "g": 0.0,
+            "b": 1.0
+          },
+          "thickness": 0.1
+        }
+      ]
+    },
+    {
+      "GUID": "0977a4",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.1107731,
+        "posY": 4.81034231,
+        "posZ": -20.1076221,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7719851,
+        "scaleY": 9.174497,
+        "scaleZ": 4.871238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.09999997,
+        "b": 0.09399996,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Red",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4f6ea1",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.2150211,
+        "posY": 4.81034231,
+        "posZ": 10.17524,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554289,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.171999961,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Yellow",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "184c2c",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.2511711,
+        "posY": 4.81034231,
+        "posZ": 9.59069252,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554213,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.627,
+        "g": 0.124999978,
+        "b": 0.941,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Purple",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1799a8",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.4749184,
+        "posY": 4.81034231,
+        "posZ": 19.8365288,
+        "rotX": 0.0,
+        "rotY": 179.8,
+        "rotZ": 0.0,
+        "scaleX": 11.7719746,
+        "scaleY": 9.174497,
+        "scaleZ": 4.87124
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.117999978,
+        "g": 0.53,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Blue",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9402e5",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 15.1961212,
+        "posY": 4.81034231,
+        "posZ": -20.1400986,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7719707,
+        "scaleY": 9.174499,
+        "scaleZ": 4.871238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "White",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e869fe",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -15.1927719,
+        "posY": 4.81034231,
+        "posZ": 19.787817,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scaleX": 11.7719707,
+        "scaleY": 9.174497,
+        "scaleZ": 4.871238
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.191999972,
+        "g": 0.701,
+        "b": 0.167999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Green",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "bfa3be",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": 30.1035728,
+        "posY": 4.81034231,
+        "posZ": -8.449126,
+        "rotX": 0.0,
+        "rotY": 270.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554184,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.96,
+        "g": 0.438999981,
+        "b": 0.807,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Pink",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "16f695",
+      "Name": "HandTrigger",
+      "Transform": {
+        "posX": -30.247818,
+        "posY": 4.81034231,
+        "posZ": -8.822588,
+        "rotX": 0.0,
+        "rotY": 90.0,
+        "rotZ": 0.0,
+        "scaleX": 11.6554317,
+        "scaleY": 9.174497,
+        "scaleZ": 4.91995144
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9559999,
+        "g": 0.39199996,
+        "b": 0.112999953,
+        "a": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": false,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "FogColor": "Orange",
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "32326e",
+      "Name": "Die_6",
+      "Transform": {
+        "posX": -18.5532627,
+        "posY": 2.410711,
+        "posZ": 10.7846041,
+        "rotX": 270.123535,
+        "rotY": 44.9423027,
+        "rotZ": 21.0846,
+        "scaleX": 2.399999,
+        "scaleY": 2.399999,
+        "scaleZ": 2.399999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.237567991,
+        "g": 0.611498237,
+        "b": 0.611498237
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 0,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.0001,
+        "DynamicFriction": 0.0001,
+        "Bounciness": 0.5,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 1.35,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      },
+      "RotationValues": [
+        {
+          "Value": "1",
+          "Rotation": {
+            "x": -90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": "2",
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "Value": "3",
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -90.0
+          }
+        },
+        {
+          "Value": "4",
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 90.0
+          }
+        },
+        {
+          "Value": "5",
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -180.0
+          }
+        },
+        {
+          "Value": "6",
+          "Rotation": {
+            "x": 90.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "GUID": "076de2",
+      "Name": "Bowl",
+      "Transform": {
+        "posX": -18.6509552,
+        "posY": 0.807615459,
+        "posZ": 10.7997046,
+        "rotX": 0.08820467,
+        "rotY": 0.0015344508,
+        "rotZ": 359.911926,
+        "scaleX": 2.799999,
+        "scaleY": 2.799999,
+        "scaleZ": 2.799999
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "PhysicsMaterial": {
+        "StaticFriction": 0.001,
+        "DynamicFriction": 0.001,
+        "Bounciness": 0.75,
+        "FrictionCombine": 0,
+        "BounceCombine": 0
+      },
+      "Rigidbody": {
+        "Mass": 2.225,
+        "Drag": 0.1,
+        "AngularDrag": 0.1,
+        "UseGravity": true
+      }
+    },
+    {
+      "GUID": "2d792c",
+      "Name": "Deck",
+      "Transform": {
+        "posX": -22.39985,
+        "posY": 1.23126054,
+        "posZ": -0.429742962,
+        "rotX": 1.26217561E-08,
+        "rotY": 179.99498,
+        "rotZ": 180.0,
+        "scaleX": 1.70316041,
+        "scaleY": 1.0,
+        "scaleZ": 1.70316041
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.608013868,
+        "g": 0.608013868,
+        "b": 0.608013868
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        51,
+        0,
+        36,
+        37,
+        3,
+        1,
+        8,
+        9,
+        27,
+        5,
+        31,
+        11,
+        39,
+        46,
+        16,
+        6,
+        13,
+        44,
+        34,
+        17,
+        18,
+        7,
+        28,
+        42,
+        15,
+        47,
+        50,
+        48,
+        45,
+        25,
+        23,
+        49,
+        2,
+        12,
+        32,
+        40,
+        4,
+        35,
+        22,
+        30,
+        20,
+        19,
+        14,
+        24,
+        41,
+        43,
+        21,
+        10,
+        26,
+        33,
+        29,
+        38
+      ],
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "GUID": "c03d0c",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.3454866,
+            "posY": 0.972892344,
+            "posZ": -0.187672317,
+            "rotX": 0.004935228,
+            "rotY": 180.000137,
+            "rotZ": 359.970581,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 51,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "0bae47",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.5604849,
+            "posY": 0.995616734,
+            "posZ": -0.2707813,
+            "rotX": 359.771851,
+            "rotY": 179.999847,
+            "rotZ": 359.805725,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 0,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "4f4dbf",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.1732845,
+            "posY": 1.0493089,
+            "posZ": -0.128451437,
+            "rotX": -0.0008378987,
+            "rotY": 180.0,
+            "rotZ": 0.0108938152,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 36,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "b26ccd",
+          "Name": "Card",
+          "Transform": {
+            "posX": -13.3049192,
+            "posY": 1.04226613,
+            "posZ": -0.324470818,
+            "rotX": 0.0265072454,
+            "rotY": 179.999939,
+            "rotZ": 0.03348096,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 37,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "6a945f",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.4548206,
+            "posY": 2.14724779,
+            "posZ": -0.217764854,
+            "rotX": 0.000283191475,
+            "rotY": 179.999725,
+            "rotZ": 323.504822,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 3,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "805db7",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.5584383,
+            "posY": 1.04932606,
+            "posZ": -0.0259835441,
+            "rotX": 0.000721800257,
+            "rotY": 180.0,
+            "rotZ": 0.0106189428,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 1,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "d9c44b",
+          "Name": "Card",
+          "Transform": {
+            "posX": -13.9975452,
+            "posY": 1.06324053,
+            "posZ": 0.08673561,
+            "rotX": -0.00555301271,
+            "rotY": 180.0,
+            "rotZ": 0.000175184745,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 8,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "5fa30b",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.4116974,
+            "posY": 0.9939232,
+            "posZ": -0.224212915,
+            "rotX": 0.340671271,
+            "rotY": 180.000366,
+            "rotZ": 359.980438,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 9,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1d5a72",
+          "Name": "Card",
+          "Transform": {
+            "posX": -14.5956936,
+            "posY": 1.08267272,
+            "posZ": -0.3425887,
+            "rotX": -0.00272554019,
+            "rotY": 180.0,
+            "rotZ": -0.00239371974,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 27,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "031b59",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 5,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "4fe4a1",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 31,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "5ddf5b",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 11,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "7c4d5a",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 39,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "999a6b",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 46,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "6316de",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 16,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "35c044",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 6,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "bf6b30",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 13,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "84cb4c",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 44,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "5b328a",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 34,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "50899e",
+          "Name": "Card",
+          "Transform": {
+            "posX": 15.1961212,
+            "posY": 5.62151527,
+            "posZ": -20.1400986,
+            "rotX": 1.192015E-07,
+            "rotY": 180.0,
+            "rotZ": -4.18989515E-07,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 17,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "816c0c",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 18,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "15455f",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 7,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "eecb10",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 28,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "f0e7c2",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 42,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "f707a1",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 15,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "424037",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 47,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "f9b0ec",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 50,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "4b4bfe",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 48,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "72544d",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 45,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "f425c5",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 25,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "697999",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 23,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "e6dadb",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 49,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "27686f",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 2,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "58a652",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 12,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "d666be",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 32,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "52ee32",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 40,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "707215",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 4,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "873855",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.543581,
+            "posY": 1.52101016,
+            "posZ": -4.28380251,
+            "rotX": 0.000115908122,
+            "rotY": 180.0,
+            "rotZ": 180.000137,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 35,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "0520ae",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 22,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "70c683",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.8033524,
+            "posY": 1.52100849,
+            "posZ": -2.91690087,
+            "rotX": -6.975376E-05,
+            "rotY": 180.0,
+            "rotZ": 180.0001,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.186669081,
+            "g": 0.430313557,
+            "b": 0.2618455
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 30,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1861f8",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 20,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "d3f6db",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 19,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "0952f3",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 14,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "90d3b0",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 24,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "90091d",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 41,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "af9553",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 43,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "6290d3",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 21,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "6f541a",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.3738575,
+            "posY": 1.521008,
+            "posZ": -3.5632,
+            "rotX": 0.00015084981,
+            "rotY": 269.985565,
+            "rotZ": -8.5405205E-05,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.608013868,
+            "g": 0.608013868,
+            "b": 0.608013868
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 10,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": ""
+        },
+        {
+          "GUID": "1cf292",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 26,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "ef8e23",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 33,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "3ebd12",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 29,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        },
+        {
+          "GUID": "b5175e",
+          "Name": "Card",
+          "Transform": {
+            "posX": -17.4343529,
+            "posY": 2.23126,
+            "posZ": -4.427842,
+            "rotX": -5.008956E-06,
+            "rotY": 180.0,
+            "rotZ": 180.0,
+            "scaleX": 1.70316041,
+            "scaleY": 1.0,
+            "scaleZ": 1.70316041
+          },
+          "Nickname": "",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "LayoutGroupSortIndex": 0,
+          "Value": 0,
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "Hands": true,
+          "CardID": 38,
+          "SidewaysCard": false,
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "ContainedObjects": []
+        }
+      ]
+    },
+    {
+      "GUID": "524fda",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -22.5254154,
+        "posY": 0.9611351,
+        "posZ": 4.31604862,
+        "rotX": 89.98022,
+        "rotY": 0.1636313,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Deck:",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 64
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "cf3ce8",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -14.4617653,
+        "posY": 0.9611351,
+        "posZ": 4.250124,
+        "rotX": 89.98022,
+        "rotY": 0.1636313,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Flipped:",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 64
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "04c909",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -18.5632362,
+        "posY": 0.9611351,
+        "posZ": -0.190696776,
+        "rotX": 90.0,
+        "rotY": 0.4962342,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "---->",
+        "colorstate": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "fontSize": 64
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "673595",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -18.81506,
+        "posY": 0.9611351,
+        "posZ": -7.07100725,
+        "rotX": 90.0,
+        "rotY": 359.826,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "                     Betting on numbered card {77%}:  +2\r\n                                        Betting on odd {54%}:  +3\r\n                                      Betting on even {46%}:  +4\r\nBetting on the exact card number/face {31%}:  +7\r\n                                      Betting on suits {25%}:  +8\r\n                                Betting on face card {23%}  +9",
+        "colorstate": {
+          "r": 0.223588377,
+          "g": 0.654917538,
+          "b": 0.709059358
+        },
+        "fontSize": 56
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "98fbc4",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -3.398271,
+        "posY": 2.06642056,
+        "posZ": -11.1317406,
+        "rotX": 90.0,
+        "rotY": 359.988831,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "Start",
+        "colorstate": {
+          "r": 0.556265652,
+          "g": 0.08831297,
+          "b": 0.956445932
+        },
+        "fontSize": 76
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "908e0e",
+      "Name": "3DText",
+      "Transform": {
+        "posX": -3.51207113,
+        "posY": 2.06642056,
+        "posZ": 14.2316952,
+        "rotX": 90.0,
+        "rotY": 359.988831,
+        "rotZ": 0.0,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "Text": {
+        "Text": "End",
+        "colorstate": {
+          "r": 0.532275558,
+          "g": 0.151304,
+          "b": 0.9982579
+        },
+        "fontSize": 76
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "b83545",
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -2.57405758,
+        "posY": 2.069169,
+        "posZ": -12.6588888,
+        "rotX": 6.336702E-06,
+        "rotY": 89.99922,
+        "rotZ": 1.65996E-05,
+        "scaleX": 1.49999976,
+        "scaleY": 1.49999976,
+        "scaleZ": 1.49999976
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.8736057,
+        "g": 1.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0b31a0",
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -2.655163,
+        "posY": 2.06916881,
+        "posZ": -13.8981256,
+        "rotX": -9.845614E-07,
+        "rotY": 90.00038,
+        "rotZ": -9.46836053E-07,
+        "scaleX": 1.49999976,
+        "scaleY": 1.49999976,
+        "scaleZ": 1.49999976
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.0788678,
+        "g": 0.824041843,
+        "b": 0.07608742
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "150c8d",
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -4.126976,
+        "posY": 2.069169,
+        "posZ": -13.8981733,
+        "rotX": -1.25920915E-05,
+        "rotY": 255.005554,
+        "rotZ": -3.48769231E-06,
+        "scaleX": 1.49999976,
+        "scaleY": 1.49999976,
+        "scaleZ": 1.49999976
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.133522183,
+        "g": 0.0,
+        "b": 0.8352941
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "996d92",
+      "Name": "PlayerPawn",
+      "Transform": {
+        "posX": -4.11271334,
+        "posY": 2.069169,
+        "posZ": -12.6016512,
+        "rotX": 3.93855373E-07,
+        "rotY": 90.00848,
+        "rotZ": -3.98513265E-07,
+        "scaleX": 1.49999976,
+        "scaleY": 1.49999976,
+        "scaleZ": 1.49999976
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.838235259,
+        "g": 0.0,
+        "b": 0.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "MaterialIndex": 1,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
